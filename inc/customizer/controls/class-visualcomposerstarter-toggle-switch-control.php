@@ -8,9 +8,9 @@
  */
 
 /**
- * Class VCT_Toggle_Switch_Control
+ * Class VisualComposerStarter_Toggle_Switch_Control
  */
-class VCT_Toggle_Switch_Control extends WP_Customize_Control {
+class VisualComposerStarter_Toggle_Switch_Control extends WP_Customize_Control {
 
 	/**
 	 * The type of customize control being rendered.
@@ -29,12 +29,15 @@ class VCT_Toggle_Switch_Control extends WP_Customize_Control {
 	 * @return void
 	 */
 	public function enqueue() {
-		wp_register_script( 'vct-toggle-switch-control', get_template_directory_uri() . '/js/control-toggle-switch.js', array( 'jquery' ), false, true );
-		wp_register_script( 'vct-select-control', get_template_directory_uri() . '/js/control-select.js', array( 'jquery' ), false, true );
-		wp_enqueue_script( 'vct-toggle-switch-control' );
-		wp_enqueue_script( 'vct-select-control' );
-		wp_register_style( 'vct-toggle-switch', get_template_directory_uri() . '/css/toggle-switch.css' );
-		wp_enqueue_style( 'vct-toggle-switch' );
+		$font_uri = VisualComposerStarter_Fonts::vct_theme_get_google_font_uri( array( 'Open Sans' ) );
+		wp_register_style( 'visualcomposerstarter-toggle-acf-fonts', $font_uri );
+		wp_enqueue_style( 'visualcomposerstarter-toggle-acf-fonts' );
+		wp_register_script( 'visualcomposerstarter-toggle-switch-control', get_template_directory_uri() . '/js/control-toggle-switch.js', array( 'jquery' ), false, true );
+		wp_register_script( 'visualcomposerstarter-select-control', get_template_directory_uri() . '/js/control-select.js', array( 'jquery' ), false, true );
+		wp_enqueue_script( 'visualcomposerstarter-toggle-switch-control' );
+		wp_enqueue_script( 'visualcomposerstarter-select-control' );
+		wp_register_style( 'visualcomposerstarter-toggle-switch', get_template_directory_uri() . '/css/toggle-switch.css' );
+		wp_enqueue_style( 'visualcomposerstarter-toggle-switch' );
 	}
 
 	/**

@@ -1,17 +1,33 @@
 === Visual Composer Starter ===
 Contributors:   visualcomposer
 Tags:   one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, editor-style, featured-image-header, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, translation-ready, blog, portfolio, photography, entertainment, education
-Stable tag: 1.2.2
+Stable tag: 3.0.1
 Requires at least:  4.8
-Tested up to:   4.8.1
+Tested up to:   5.0.1
 License:    GPLv2 or later
 License URI:    http://www.gnu.org/licenses/gpl-3.0.html
 
 A starter theme for Visual Composer.
 
+== Copyright and license ==
+Visual Composer Starter theme is distributed under the terms of the GNU GPL
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+== Credits ==
+* TGM Plugin Activation - http://tgmpluginactivation.com/, 2011, Thomas Griffin [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
+* Visual Composer Starter Font - https://visualcomposer.com/, 2016
+* Slick Slider by Ken Wheeler. http://kenwheeler.github.io/slick/ Slick Slider is Licensed under the MIT license. https://github.com/kenwheeler/slick/blob/master/LICENSE
+* Images on screenshot.
+	- header photo
+    from: https://stocksnap.io/photo/3JB16W5EHG
+    license: https://stocksnap.io/license
+    - post avatar photo
+    from: https://stocksnap.io/photo/YRX99Q5AWM
+    license: https://stocksnap.io/license
+
 == Description ==
 
-Visual Composer Starter theme is designed to be a perfect companion for a simple and good looking website. It is a lightweight theme with easy-to-use theme options and SEO in mind.
+Visual Composer Starter theme designed to be a perfect companion for a simple and good looking website. It is an easy-to-use multipurpose theme that can help you create business websites, portfolio, blogs, WooCommerce stores, and more.
 
 Intuitive theme options allow you to quickly create landing pages, business websites, portfolio, blogs, and more. Advanced page options allow you to quickly customize individual pages to design unique layouts.
 
